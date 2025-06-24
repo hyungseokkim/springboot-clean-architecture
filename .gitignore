@@ -1,0 +1,48 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle-cache/
+*.log
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+out/
+*.ipr
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+logs/
+*.log
+
+### Environment files ###
+.env
+.env.*
+
+### Spring Boot ###
+/target/
+/bin/
+/tmp/
+
+### Swagger generated files (optional) ###
+/swagger-ui/
+
+### Test Reports ###
+/test-output/
+/build/reports/
+/build/test-results/
+
+### Node (if using frontend later) ###
+node_modules/
+dist/
